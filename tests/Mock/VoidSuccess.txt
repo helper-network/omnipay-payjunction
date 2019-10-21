@@ -1,0 +1,93 @@
+HTTP/1.1 200 OK
+Server: nginx/1.9.12
+Date: Fri, 02 Sep 2016 06:17:31 GMT
+Content-Type: text/html
+Content-Length: 16
+Connection: keep-alive
+Cache-Control: private
+Set-Cookie: ASPSESSIONIDAUTTTSAD=POOLIMIAPDLFANEGKKDMIMDL; secure; path=/; Secure; HTTPONLY
+
+{
+      "transactionId": 3601,
+      "uri": "https://api.payjunction.com/transactions/3601",
+      "terminalId": 1,
+      "action": "CHARGE",
+      "amountBase": "1.00",
+      "amountTax": "1.00",
+      "amountShipping": "1.00",
+      "amountTip": "1.00",
+      "amountSurcharge": "1.00",
+      "amountTotal": "5.00",
+      "invoiceNumber": "Invoice 5",
+      "purchaseOrderNumber": "Custom PO",
+      "signatureStatus": "SIGNED",
+      "status": "CAPTURE",
+      "created": "2013-11-18T22:15:32Z",
+      "lastModified": "2013-11-18T22:15:32Z",
+      "response": {
+            "approved": true,
+            "code": "00",
+            "message": "Approved",
+            "processor": {
+                  "authorized": true,
+                  "approvalCode": "PJ20AP",
+                  "avs": {
+                        "status": "REQUESTED",
+                        "requested": "BYPASS",
+                        "match": {
+                              "ZIP": true,
+                              "ADDRESS": true
+                        }
+                  },
+                  "cvv": {
+                        "status": "NOT_REQUESTED"
+                  }
+            }
+      },
+      "settlement": {
+            "settled": false
+      },
+      "vault": {
+            "type": "CARD",
+            "accountType": "VISA",
+            "lastFour": "1111"
+      },
+      "billing": {
+            "firstName": "John",
+            "middleName": "J",
+            "lastName": "Doe",
+            "companyName": "PayJunction",
+            "email": "jdoe@payjunction.com",
+            "phone": "8006010230 x2",
+            "phone2": "8006010230 x2",
+            "jobTitle": "Support",
+            "identifier": "Billing Customer id",
+            "website": "http://www.payjunction.com",
+            "address": {
+                  "address": "1903 State St",
+                  "city": "Santa Barbara",
+                  "state": "CA",
+                  "country": "USA",
+                  "zip": "93101"
+            }
+      },
+      "shipping": {
+            "firstName": "Jane",
+            "middleName": "J",
+            "lastName": "Doe",
+            "companyName": "PayJunction",
+            "email": "janedoe@payjunction.com",
+            "phone": "8006010230 x2",
+            "phone2": "8006010230 x2",
+            "jobTitle": "Support",
+            "identifier": "Shipping Customer Id",
+            "website": "https://www.payjunction.com",
+            "address": {
+                  "address": "1903 State St",
+                  "city": "Santa Barbara",
+                  "state": "CA",
+                  "country": "USA",
+                  "zip": "93101"
+            }
+      }
+}

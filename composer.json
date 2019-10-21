@@ -1,0 +1,27 @@
+{
+    "name": "helper-network/omnipay-payjunction",
+    "description": "Payjunction gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "payjunction"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Griffin Meyer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "omnipay/common": "^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3.0"
+    },
+    "autoload": {
+        "psr-4": { "Omnipay\\PayJunction\\" : "src/" }
+    }
+}

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Server: nginx/1.9.12
+Date: Fri, 02 Sep 2016 06:17:31 GMT
+Content-Type: text/html
+Content-Length: 16
+Connection: keep-alive
+Cache-Control: private
+Set-Cookie: ASPSESSIONIDAUTTTSAD=POOLIMIAPDLFANEGKKDMIMDL; secure; path=/; Secure; HTTPONLY
+
+{
+      "vaultId": 942,
+      "uri": "https://www.payjunction.com/customers/916/vaults/942",
+      "customerId": 916,
+      "type": "ACH",
+      "accountType": "CHECKING",
+      "lastFour": "6789",
+      "achRoutingNumber": "104000016",
+      "achType": "PPD",
+      "created": "2013-11-19T04:05:30Z",
+      "lastModified": "2013-11-19T04:05:30Z",
+      "address": {
+            "addressId": 878,
+            "uri": "https://www.payjunction.com/customers/916/addresses/878",
+            "address": "123 State St",
+            "city": "Santa Barbara",
+            "state": "CA",
+            "zip": "93105",
+            "created": "2013-11-19T04:05:30Z",
+            "lastModified": "2013-11-19T04:05:30Z"
+      }
+}

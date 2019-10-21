@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Server: nginx/1.9.12
+Date: Fri, 02 Sep 2016 06:17:31 GMT
+Content-Type: text/html
+Content-Length: 16
+Connection: keep-alive
+Cache-Control: private
+Set-Cookie: ASPSESSIONIDAUTTTSAD=POOLIMIAPDLFANEGKKDMIMDL; secure; path=/; Secure; HTTPONLY
+
+{
+      "customerId": 10079,
+      "uri": "https://api.payjunction.com/customers/10079",
+      "firstName": "John",
+      "lastName": "Keats",
+      "companyName": "PayJunction",
+      "email": "jkeats@payjunction.com",
+      "phone": "800-601-0230",
+      "phone2": "800-771-3821",
+      "jobTitle": "Poet",
+      "website": "https://www.payjunction.com",
+      "custom1": "custom-field",
+      "created": "2012-02-09T02:12:14Z",
+      "lastModified": "2012-02-09T02:12:14Z"
+}
