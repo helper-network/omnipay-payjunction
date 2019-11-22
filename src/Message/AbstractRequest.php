@@ -76,7 +76,7 @@ abstract class AbstractRequest extends BaseAbstractRequest
 					'Authorization'        => 'Basic ' . base64_encode($this->getUsername() . ':' . $this->getPassword()),
 					'X-PJ-Application-Key' => $this->getAppKey(),
 				],
-				json_encode($data)
+				http_build_query($data)
 			)
 			->getBody()
 			->getContents();

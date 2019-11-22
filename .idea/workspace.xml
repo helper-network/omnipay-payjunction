@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="605b3b13-5d2d-4718-b336-e00b893069e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Message/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/Response.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +174,7 @@
       <workItem from="1574438885213" duration="11000" />
       <workItem from="1574438908240" duration="225000" />
       <workItem from="1574439148583" duration="3421000" />
-      <workItem from="1574454724855" duration="4179000" />
+      <workItem from="1574454724855" duration="6761000" />
     </task>
     <task id="LOCAL-00001" summary="* Finalization of methods&#10;* Importing HelperNetwork deps&#10;* Clean up">
       <created>1574438030894</created>
@@ -212,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574459374664</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changing errors location">
+      <created>1574460096241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574460096241</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +243,7 @@
     <MESSAGE value="Updating to default return id" />
     <MESSAGE value="Namespace bugs" />
     <MESSAGE value="Patch - fixing error catching." />
-    <option name="LAST_COMMIT_MESSAGE" value="Patch - fixing error catching." />
+    <MESSAGE value="Changing errors location" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing errors location" />
   </component>
 </project>
