@@ -59,4 +59,13 @@ class CreateBankRequest extends AbstractCreateAccountRequest
 	{
 		return 'post';
 	}
+
+	/**
+	 * @param $data
+	 * @throws \Exception
+	 */
+	protected function createResponse($data)
+	{
+		return new CreateAccountRequest($this, $data);
+	}
 }

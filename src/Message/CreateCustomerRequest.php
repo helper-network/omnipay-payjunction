@@ -144,4 +144,13 @@ class CreateCustomerRequest extends AbstractRequest
 	{
 		return 'post';
 	}
+
+	/**
+	 * @param $data
+	 * @throws \Exception
+	 */
+	protected function createResponse($data)
+	{
+		return new CreateCustomerResponse($this, $data);
+	}
 }

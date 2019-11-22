@@ -54,7 +54,7 @@ class CreateCustomerRequestTest extends TestCase
 		$this->setMockHttpResponse('CreateUserSuccess.txt');
 		$response = $this->request->send();
 
-		$this->assertEquals(10079, $response->getCustomerReference());
+		$this->assertEquals(10079, $response->getTransactionReference());
 		$this->assertTrue($response->isSuccessful());
 	}
 

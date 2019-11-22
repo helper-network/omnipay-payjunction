@@ -41,8 +41,7 @@ class CreateBankAccountRequestTest extends TestCase
 		$this->setMockHttpResponse('CreateCardSuccess.txt');
 		$response = $this->request->send();
 
-		$this->assertEquals(916, $response->getCustomerReference());
-		$this->assertEquals(942, $response->getAccountReference());
+		$this->assertEquals(942, $response->getTransactionReference());
 		$this->assertTrue($response->isSuccessful());
 	}
 

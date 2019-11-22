@@ -44,29 +44,7 @@ class Response extends AbstractResponse
 		return $this->data['transactionId'];
 	}
 
-
-	public function getCustomerReference()
-	{
-		return $this->data['customerId'];
-	}
-
-	public function getAccountReference(){
-		return $this->data['vaultId'];
-	}
-
-
-	/**
-	 * Get the transaction id from the response.
-	 *
-	 * Returns transaction id if the request was successful.
-	 *
-	 * @return int|null
-	 */
-	public function getTransId()
-	{
-		if ($this->isSuccessful()) {
-			return $this->data['transactionId'];
-		}
-		return null;
+	public function getTransactionReference(){
+		return $this->data['transactionId'];
 	}
 }
