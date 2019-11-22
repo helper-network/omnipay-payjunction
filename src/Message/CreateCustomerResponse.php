@@ -1,9 +1,6 @@
 <?php
 
-namespace Omnipay\Payjunction\Message;
-
-use Omnipay\Common\Message\AbstractResponse;
-use Omnipay\Common\Message\RequestInterface;
+namespace Omnipay\PayJunction\Message;
 
 class CreateCustomerResponse extends Response
 {

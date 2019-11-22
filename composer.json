@@ -1,6 +1,6 @@
 {
     "name": "helper-network/omnipay-payjunction",
-    "description": "Payjunction gateway for Omnipay payment processing library",
+    "description": "PayJunction gateway for Omnipay payment processing library",
     "keywords": [
         "gateway",
         "merchant",

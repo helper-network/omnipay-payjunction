@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipay\Payjunction\Message;
+namespace Omnipay\PayJunction\Message;
 
 class CreateAccountRequest extends Response
 {

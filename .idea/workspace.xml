@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="605b3b13-5d2d-4718-b336-e00b893069e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Message/CreateAccountRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Message/CreateCustomerResponse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Message/CreateBankRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/CreateBankRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Message/CreateCardRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/CreateCardRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Message/CreateCustomerRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/CreateCustomerRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Message/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/Response.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Message/CreateBankAccountRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/CreateBankAccountRequestTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Message/CreateCreditCardRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/CreateCreditCardRequestTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Message/CreateCustomerRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/CreateCustomerRequestTest.php" afterDir="false" />
-    </list>
+    <list default="true" id="605b3b13-5d2d-4718-b336-e00b893069e3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +172,7 @@
       <workItem from="1574438885213" duration="11000" />
       <workItem from="1574438908240" duration="225000" />
       <workItem from="1574439148583" duration="3421000" />
-      <workItem from="1574454724855" duration="1717000" />
+      <workItem from="1574454724855" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="* Finalization of methods&#10;* Importing HelperNetwork deps&#10;* Clean up">
       <created>1574438030894</created>
@@ -199,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574455109553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updating to default return id">
+      <created>1574457625751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574457625751</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +217,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="* Finalization of methods&#10;* Importing HelperNetwork deps&#10;* Clean up" />
     <MESSAGE value="Renaming variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renaming variables" />
+    <MESSAGE value="Updating to default return id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating to default return id" />
   </component>
 </project>
