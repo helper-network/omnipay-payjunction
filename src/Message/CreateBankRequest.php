@@ -3,7 +3,7 @@
 namespace Omnipay\PayJunction\Message;
 
 
-class CreateBankAccountRequest extends AbstractCreateAccountRequest
+class CreateBankRequest extends AbstractCreateAccountRequest
 {
 	public function getRoutingNumber()
 	{
@@ -48,5 +48,15 @@ class CreateBankAccountRequest extends AbstractCreateAccountRequest
 		$data['achType']          = 'PPD';
 
 		return $data;
+	}
+
+	protected function getEndpoint()
+	{
+		return parent::getEndpoint().'/vaults';
+	}
+
+	protected function getMethod()
+	{
+		return 'post';
 	}
 }

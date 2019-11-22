@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="605b3b13-5d2d-4718-b336-e00b893069e3" name="Default Changelist" comment="" />
+    <list default="true" id="605b3b13-5d2d-4718-b336-e00b893069e3" name="Default Changelist" comment="* Finalization of methods&#10;* Importing HelperNetwork deps&#10;* Clean up">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Message/RetrievePaymentRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omnipay-payjunction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/omnipay-payjunction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gateway.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Message/AbstractTransactionRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/AbstractTransactionRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Message/CreateBankAccountRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/CreateBankRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Message/CreateCardRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/CreateCardRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/GatewayTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GatewayTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/AuthorizeRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/AuthorizeRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/CaptureRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/CaptureRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/CreateBankAccountRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/CreateBankAccountRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/CreateCreditCardRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/CreateCreditCardRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/CreateCustomerRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/CreateCustomerRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/PurchaseRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/PurchaseRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/RefundRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/RefundRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/VoidRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/VoidRequestTest.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -16,14 +40,77 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHPUnit" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHPUnit">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/clue/stream-filter" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/moneyphp/money" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/php-http/mock-client" />
+      <path value="$PROJECT_DIR$/vendor/php-http/client-common" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/php-http/discovery" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/helper-network/omnipay-common" />
+      <path value="$PROJECT_DIR$/vendor/helper-network/omnipay-tests" />
+    </include_path>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1SwTjNZyapPnGmciXix6vpxZKT8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Mock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Message" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -34,9 +121,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Message" />
       <recent name="$PROJECT_DIR$/tests/Mock" />
       <recent name="$PROJECT_DIR$/tests/Message" />
-      <recent name="$PROJECT_DIR$/src/Message" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -53,34 +140,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.GatewayTest">
+  <component name="RunManager" selected="PHPUnit.AuthorizeRequestTest.testSendSuccess">
+    <configuration name="AuthorizeRequestTest.testSendSuccess" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Omnipay\PayJunction\Message\AuthorizeRequestTest" file="$PROJECT_DIR$/tests/Message/AuthorizeRequestTest.php" method="testSendSuccess" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="GatewayTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Omnipay\PayJunction\GatewayTest" file="$PROJECT_DIR$/tests/GatewayTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="GatewayTest.testCreateCard" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Omnipay\PayJunction\GatewayTest" file="$PROJECT_DIR$/tests/GatewayTest.php" method="testCreateCard" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GatewayTest.testPurchase" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Omnipay\PayJunction\GatewayTest" file="$PROJECT_DIR$/tests/GatewayTest.php" method="testPurchase" scope="Method" />
+    <configuration name="GatewayTest.testCapture" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Omnipay\PayJunction\GatewayTest" file="$PROJECT_DIR$/tests/GatewayTest.php" method="testCapture" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="Message" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/tests/Message" />
       <method v="2" />
     </configuration>
-    <configuration name="VoidRequestTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Omnipay\PayJunction\Message\VoidRequestTest" file="$PROJECT_DIR$/tests/Message/VoidRequestTest.php" scope="Class" />
+    <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/tests" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.GatewayTest" />
-        <item itemvalue="PHPUnit.GatewayTest.testPurchase" />
+        <item itemvalue="PHPUnit.AuthorizeRequestTest.testSendSuccess" />
+        <item itemvalue="PHPUnit.tests" />
         <item itemvalue="PHPUnit.Message" />
-        <item itemvalue="PHPUnit.GatewayTest.testCreateCard" />
-        <item itemvalue="PHPUnit.VoidRequestTest" />
+        <item itemvalue="PHPUnit.GatewayTest" />
+        <item itemvalue="PHPUnit.GatewayTest.testCapture" />
       </list>
     </recent_temporary>
   </component>
@@ -95,6 +182,13 @@
       <option name="presentableId" value="Default" />
       <updated>1571334070904</updated>
       <workItem from="1571334074984" duration="53366000" />
+      <workItem from="1572473793467" duration="6937000" />
+      <workItem from="1572556559708" duration="1006000" />
+      <workItem from="1572626330604" duration="3000" />
+      <workItem from="1572642065199" duration="3223000" />
+      <workItem from="1574365773930" duration="2760000" />
+      <workItem from="1574372033986" duration="607000" />
+      <workItem from="1574373561422" duration="7087000" />
     </task>
     <servers />
   </component>
@@ -106,7 +200,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

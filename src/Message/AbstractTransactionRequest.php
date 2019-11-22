@@ -36,7 +36,7 @@ class AbstractTransactionRequest extends AbstractRequest
 	protected function getEndpoint()
 	{
 		$urlBase = $this->getUrlBase();
-		return $urlBase . '/transaction';
+		return $urlBase . '/transactions';
 	}
 
 	protected function getStatus()

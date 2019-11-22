@@ -16,10 +16,10 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "omnipay/common": "^3.0"
+        "helper-network/omnipay-common": "^4.0"
     },
     "require-dev": {
-        "omnipay/tests": "^3.0"
+        "helper-network/omnipay-tests": "^4.0"
     },
     "autoload": {
         "psr-4": { "Omnipay\\PayJunction\\" : "src/" }

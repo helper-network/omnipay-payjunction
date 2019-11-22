@@ -9,7 +9,7 @@ class CreateCreditCardRequestTest extends TestCase
 {
 	private $request;
 
-	public function setUp()
+	public function setUp(): void
 	{
 		$this->request = new CreateCardRequest($this->getHttpClient(), $this->getHttpRequest());
 

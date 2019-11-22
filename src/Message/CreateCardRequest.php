@@ -35,4 +35,14 @@ class CreateCardRequest extends AbstractCreateAccountRequest
 
 		return $data;
 	}
+
+	protected function getEndpoint()
+	{
+		return parent::getEndpoint().'/vaults';
+	}
+
+	protected function getMethod()
+	{
+		return 'post';
+	}
 }

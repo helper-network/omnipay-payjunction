@@ -5,10 +5,12 @@ namespace Omnipay\PayJunction;
 use Omnipay\Common\AbstractGateway;
 use Omnipay\PayJunction\Message\AuthorizeRequest;
 use Omnipay\PayJunction\Message\CaptureRequest;
-use Omnipay\PayJunction\Message\CreateBankAccountRequest;
+use Omnipay\PayJunction\Message\CreateBankRequest;
 use Omnipay\PayJunction\Message\CreateCardRequest;
 use Omnipay\PayJunction\Message\CreateCustomerRequest;
 use Omnipay\PayJunction\Message\PurchaseRequest;
+use Omnipay\PayJunction\Message\RefundRequest;
+use Omnipay\PayJunction\Message\RetrievePaymentRequest;
 use Omnipay\PayJunction\Message\VoidRequest;
 
 /**
@@ -80,7 +82,7 @@ class Gateway extends AbstractGateway {
 
 	public function refund(array $parameters = [])
 	{
-		return $this->createRequest(PurchaseRequest::class, $parameters);
+		return $this->createRequest(RefundRequest::class, $parameters);
 	}
 
 	public function capture(array $parameters = [])
@@ -97,9 +99,14 @@ class Gateway extends AbstractGateway {
 		return $this->createRequest(CreateCardRequest::class, $parameters);
 	}
 
-	public function createBankAccount(array $parameters = [])
+	public function createBank(array $parameters = [])
 	{
-		return $this->createRequest(CreateBankAccountRequest::class, $parameters);
+		return $this->createRequest(CreateBankRequest::class, $parameters);
+	}
+
+	public function retrievePayment(array $parameters = []) {
+		return $this->createRequest(RetrievePaymentRequest::class, $parameters);
+
 	}
 
 }

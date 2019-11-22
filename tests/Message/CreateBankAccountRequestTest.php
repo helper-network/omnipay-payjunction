@@ -9,9 +9,9 @@ class CreateBankAccountRequestTest extends TestCase
 {
 	private $request;
 
-	public function setUp()
+	public function setUp(): void
 	{
-		$this->request = new CreateBankAccountRequest($this->getHttpClient(), $this->getHttpRequest());
+		$this->request = new CreateBankRequest($this->getHttpClient(), $this->getHttpRequest());
 
 		$this->request->initialize([
 			'CustomerId'    => '12345',

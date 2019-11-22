@@ -13,7 +13,7 @@ class VoidRequestTest extends TestCase
      */
     private $request;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->request = new VoidRequest($this->getHttpClient(), $this->getHttpRequest());
     }
