@@ -21,7 +21,7 @@ class Response extends AbstractResponse
 	 */
 	public function isSuccessful()
 	{
-		return !isset($this->data['error']);
+		return !isset($this->data['errors']);
 	}
 
 	/**
@@ -34,7 +34,7 @@ class Response extends AbstractResponse
 	public function getMessage()
 	{
 		if (!$this->isSuccessful()) {
-			return $this->data['error']['message'];
+			return $this->data['errors']['message'];
 		}
 		return null;
 	}

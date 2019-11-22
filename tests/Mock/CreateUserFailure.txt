@@ -9,7 +9,7 @@ Set-Cookie: ASPSESSIONIDAUTTTSAD=POOLIMIAPDLFANEGKKDMIMDL; secure; path=/; Secur
 
 {
 
-      "error" : {
+      "errors" : {
       "true" : true
       },
       "customerId": 10079,

@@ -8,7 +8,7 @@ Cache-Control: private
 Set-Cookie: ASPSESSIONIDAUTTTSAD=POOLIMIAPDLFANEGKKDMIMDL; secure; path=/; Secure; HTTPONLY
 
 {
-      "error" : {
+      "errors" : {
         "Fail" : "failure"
       },
       "transactionId": 3601,
