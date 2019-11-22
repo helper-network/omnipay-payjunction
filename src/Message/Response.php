@@ -14,6 +14,11 @@ class Response extends AbstractResponse
 		$this->data = json_decode($this->data, true);
 	}
 
+	public function getCode()
+	{
+		return $this->data['response']['code'];
+	}
+
 	/**
 	 * Is the transaction successful?
 	 *
