@@ -30,8 +30,8 @@ class Gateway extends AbstractGateway {
 	{
 		return [
 			'appKey'      => '',
-			'apiLogin'    => '',
-			'apiPassword' => '',
+			'username'    => '',
+			'password' => '',
 		];
 	}
 
@@ -45,24 +45,24 @@ class Gateway extends AbstractGateway {
 		return $this->setParameter('appKey', $value);
 	}
 
-	public function getApiLogin()
+	public function getUsername()
 	{
-		return $this->getParameter('apiLogin');
+		return $this->getParameter('username');
 	}
 
-	public function setApiLogin($value)
+	public function setUsername($value)
 	{
-		return $this->setParameter('apiLogin', $value);
+		return $this->setParameter('username', $value);
 	}
 
-	public function getApiPassword()
+	public function getPassword()
 	{
-		return $this->getParameter('apiPassword');
+		return $this->getParameter('password');
 	}
 
-	public function setApiPassword($value)
+	public function setPassword($value)
 	{
-		return $this->setParameter('apiPassword', $value);
+		return $this->setParameter('password', $value);
 	}
 
 	public function authorize(array $parameters = [])

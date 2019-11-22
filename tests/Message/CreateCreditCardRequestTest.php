@@ -24,8 +24,8 @@ class CreateCreditCardRequestTest extends TestCase
 		]);
 
 		$this->request->setAppKey('appKey');
-		$this->request->setApiPassword('password');
-		$this->request->setApiLogin('login');
+		$this->request->setPassword('password');
+		$this->request->setUsername('login');
 
 	}
 

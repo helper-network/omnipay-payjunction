@@ -24,8 +24,8 @@ class GatewayTest extends GatewayTestCase {
 
 		$this->gateway = new Gateway($this->getHttpClient(), $this->getHttpRequest());
 
-		$this->gateway->setApiLogin('login');
-		$this->gateway->setApiPassword('password');
+		$this->gateway->setUsername('login');
+		$this->gateway->setPassword('password');
 		$this->gateway->setAppKey('apiKey');
 	}
 
