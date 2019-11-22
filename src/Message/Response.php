@@ -34,7 +34,7 @@ class Response extends AbstractResponse
 	public function getMessage()
 	{
 		if (!$this->isSuccessful()) {
-			return $this->data['errors']['message'];
+			return $this->data['errors'][0]['message'];
 		}
 		return null;
 	}
