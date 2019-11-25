@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="605b3b13-5d2d-4718-b336-e00b893069e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Message/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/Response.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Message/AuthorizeRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/AuthorizeRequestTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Message/CaptureRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/CaptureRequestTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Message/PurchaseRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/PurchaseRequestTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Message/RefundRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/RefundRequestTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Message/VoidRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/VoidRequestTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +92,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../omnipay-paysimple" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -180,7 +174,7 @@
       <workItem from="1574438885213" duration="11000" />
       <workItem from="1574438908240" duration="225000" />
       <workItem from="1574439148583" duration="3421000" />
-      <workItem from="1574454724855" duration="8823000" />
+      <workItem from="1574454724855" duration="9206000" />
     </task>
     <task id="LOCAL-00001" summary="* Finalization of methods&#10;* Importing HelperNetwork deps&#10;* Clean up">
       <created>1574438030894</created>
@@ -238,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574463870706</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implementing getAmount">
+      <created>1574694462336</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574694462336</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +267,7 @@
     <MESSAGE value="Changing errors location" />
     <MESSAGE value="Fixing request format" />
     <MESSAGE value="Adding getCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding getCode" />
+    <MESSAGE value="Implementing getAmount" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing getAmount" />
   </component>
 </project>
