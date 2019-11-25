@@ -1,0 +1,48 @@
+HTTP/1.1 200 OK
+Server: nginx/1.9.12
+Date: Fri, 02 Sep 2016 06:17:31 GMT
+Content-Type: text/html
+Content-Length: 16
+Connection: keep-alive
+Cache-Control: private
+Set-Cookie: ASPSESSIONIDAUTTTSAD=POOLIMIAPDLFANEGKKDMIMDL; secure; path=/; Secure; HTTPONLY
+
+{
+  "transactionId": 11,
+  "uri": "https://api.payjunctionlabs.com/transactions/11",
+  "terminalId": 1,
+  "action": "CHARGE",
+  "amountBase": "5.00",
+  "amountTotal": "5.00",
+  "method": "INSTANT",
+  "status": "CAPTURE",
+  "created": "2019-11-25T16:26:23Z",
+  "lastModified": "2019-11-25T16:26:23Z",
+  "response": {
+    "approved": true,
+    "code": "00",
+    "message": "Approved",
+    "processor": {
+      "authorized": true,
+      "approvalCode": "PJ20AP",
+      "avs": {
+        "status": "NOT_REQUESTED"
+      },
+      "cvv": {
+        "status": "NOT_REQUESTED"
+      }
+    }
+  },
+  "settlement": {
+    "settled": false
+  },
+  "vault": {
+    "type": "CARD",
+    "accountType": "VISA",
+    "lastFour": "1111"
+  },
+  "billing": {
+    "firstName": "Test",
+    "lastName": "User"
+  }
+}

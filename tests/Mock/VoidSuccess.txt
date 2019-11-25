@@ -21,7 +21,7 @@ Set-Cookie: ASPSESSIONIDAUTTTSAD=POOLIMIAPDLFANEGKKDMIMDL; secure; path=/; Secur
       "invoiceNumber": "Invoice 5",
       "purchaseOrderNumber": "Custom PO",
       "signatureStatus": "SIGNED",
-      "status": "CAPTURE",
+      "status": "VOID",
       "created": "2013-11-18T22:15:32Z",
       "lastModified": "2013-11-18T22:15:32Z",
       "response": {

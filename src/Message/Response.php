@@ -60,4 +60,12 @@ class Response extends AbstractResponse
 	{
 		return $this->data['amountTotal'];
 	}
+
+	public function getStatus() {
+		if($this->data['settlement']['settled']){
+			return 'settled';
+		}
+
+		return 'submitted';
+	}
 }

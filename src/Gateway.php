@@ -11,6 +11,7 @@ use Omnipay\PayJunction\Message\CreateCustomerRequest;
 use Omnipay\PayJunction\Message\PurchaseRequest;
 use Omnipay\PayJunction\Message\RefundRequest;
 use Omnipay\PayJunction\Message\RetrievePaymentRequest;
+use Omnipay\PayJunction\Message\StatusRequest;
 use Omnipay\PayJunction\Message\VoidRequest;
 
 /**
@@ -106,6 +107,11 @@ class Gateway extends AbstractGateway {
 
 	public function retrievePayment(array $parameters = []) {
 		return $this->createRequest(RetrievePaymentRequest::class, $parameters);
+
+	}
+
+	public function getStatus(array $parameters = []) {
+		return $this->createRequest( StatusRequest::class, $parameters);
 
 	}
 
