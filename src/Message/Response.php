@@ -52,4 +52,9 @@ class Response extends AbstractResponse
 	public function getTransactionReference(){
 		return $this->data['transactionId'];
 	}
+
+	public function getAmount()
+	{
+		return $this->data['amountTotal'];
+	}
 }

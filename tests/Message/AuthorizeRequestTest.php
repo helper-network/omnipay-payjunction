@@ -41,6 +41,7 @@ class AuthorizeRequestTest extends TestCase
 		$response = $this->request->send();
 
 		$this->assertEquals(3601, $response->getTransactionId());
+		$this->assertEquals(5.00, $response->getAmount());
 		$this->assertTrue($response->isSuccessful());
 	}
 

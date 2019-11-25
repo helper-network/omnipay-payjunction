@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="605b3b13-5d2d-4718-b336-e00b893069e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Message/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/AuthorizeRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/AuthorizeRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/CaptureRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/CaptureRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/PurchaseRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/PurchaseRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/RefundRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/RefundRequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Message/VoidRequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Message/VoidRequestTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.tests">
+  <component name="RunManager" selected="PHPUnit.Message">
     <configuration name="AuthorizeRequestTest.testSendSuccess" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Omnipay\PayJunction\Message\AuthorizeRequestTest" file="$PROJECT_DIR$/tests/Message/AuthorizeRequestTest.php" method="testSendSuccess" scope="Method" />
       <method v="2" />
@@ -131,12 +137,12 @@
       <TestRunner class="Omnipay\PayJunction\Message\CreateBankAccountRequestTest" directory="$PROJECT_DIR$/tests" file="$PROJECT_DIR$/tests/Message/CreateBankAccountRequestTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="GatewayTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Omnipay\PayJunction\GatewayTest" file="$PROJECT_DIR$/tests/GatewayTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
     <configuration name="Message" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/tests/Message" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PurchaseRequestTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Omnipay\PayJunction\Message\PurchaseRequestTest" file="$PROJECT_DIR$/tests/Message/PurchaseRequestTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -145,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.Message" />
+        <item itemvalue="PHPUnit.PurchaseRequestTest" />
         <item itemvalue="PHPUnit.tests" />
         <item itemvalue="PHPUnit.CreateBankAccountRequestTest" />
         <item itemvalue="PHPUnit.AuthorizeRequestTest.testSendSuccess" />
-        <item itemvalue="PHPUnit.Message" />
-        <item itemvalue="PHPUnit.GatewayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +180,7 @@
       <workItem from="1574438885213" duration="11000" />
       <workItem from="1574438908240" duration="225000" />
       <workItem from="1574439148583" duration="3421000" />
-      <workItem from="1574454724855" duration="6761000" />
+      <workItem from="1574454724855" duration="8823000" />
     </task>
     <task id="LOCAL-00001" summary="* Finalization of methods&#10;* Importing HelperNetwork deps&#10;* Clean up">
       <created>1574438030894</created>
@@ -218,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574460096241</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixing request format">
+      <created>1574463676671</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574463676671</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding getCode">
+      <created>1574463870706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574463870706</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +264,8 @@
     <MESSAGE value="Namespace bugs" />
     <MESSAGE value="Patch - fixing error catching." />
     <MESSAGE value="Changing errors location" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing errors location" />
+    <MESSAGE value="Fixing request format" />
+    <MESSAGE value="Adding getCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding getCode" />
   </component>
 </project>
