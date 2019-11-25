@@ -8,15 +8,18 @@ use Omnipay\Common\Message\RequestInterface;
 class Response extends AbstractResponse
 {
 
+	protected $code;
 	public function __construct(RequestInterface $request, $data)
 	{
 		parent::__construct($request, $data);
-		$this->data = json_decode($this->data, true);
+		$this->code = $data->getStatusCode();
+		$data = $data->getBody()->getContents();
+		$this->data = json_decode($data, true, 512, JSON_THROW_ON_ERROR);
 	}
 
 	public function getCode()
 	{
-		return $this->data['response']['code'];
+		return $this->code;
 	}
 
 	/**

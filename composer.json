@@ -1,27 +1,30 @@
 {
-    "name": "helper-network/omnipay-payjunction",
-    "description": "PayJunction gateway for Omnipay payment processing library",
-    "keywords": [
-        "gateway",
-        "merchant",
-        "omnipay",
-        "payjunction"
-    ],
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Griffin Meyer"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-        "helper-network/omnipay-common": "^4.0"
-    },
-    "require-dev": {
-        "helper-network/omnipay-tests": "^4.0"
-    },
-    "autoload": {
-        "psr-4": { "Omnipay\\PayJunction\\" : "src/" }
+  "name": "helper-network/omnipay-payjunction",
+  "description": "PayJunction gateway for Omnipay payment processing library",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "payjunction"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Griffin Meyer"
     }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "helper-network/omnipay-common": "^4.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "helper-network/omnipay-tests": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\PayJunction\\": "src/"
+    }
+  }
 }

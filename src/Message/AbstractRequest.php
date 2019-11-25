@@ -77,9 +77,7 @@ abstract class AbstractRequest extends BaseAbstractRequest
 					'X-PJ-Application-Key' => $this->getAppKey(),
 				],
 				http_build_query($data)
-			)
-			->getBody()
-			->getContents();
+			);
 
 		return $this->createResponse($response);
 	}

@@ -51,5 +51,6 @@ class AuthorizeRequestTest extends TestCase
 		$response = $this->request->send();
 
 		$this->assertFalse($response->isSuccessful());
+		$this->assertEquals(400, $response->getCode());
 	}
 }
